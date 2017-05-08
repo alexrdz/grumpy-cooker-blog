@@ -1,0 +1,18 @@
+.ingredients-list {
+  margin: 2rem 0 5rem 5rem;
+
+  li {
+    font-size: $paragraph-font-size;
+    line-height: 1.6;
+    list-style: circle;
+
+    // @include plumber(
+    //   $font-size: 2.6,
+    //   $line-height: 1,
+    //   $leading-top: 3,
+    //   $leading-bottom: 3,
+    //   $baseline: $header-baseline
+    // );
+  }
+  
+}

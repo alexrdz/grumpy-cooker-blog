@@ -1,0 +1,9 @@
+.pager-nav {
+  display: flex;
+  justify-content: space-around;
+}
+.pager-nav__item,
+.pager-nav__next {
+  width: auto;
+  flex-grow: 1;
+}
