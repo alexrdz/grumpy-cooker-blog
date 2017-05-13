@@ -7,11 +7,18 @@ layout: default
     <div class="container">
       <div class="wrap">
       
-        <div class="fix-7-12 margin-bottom-10">
-          <a href="/"><img src="/assets/img/grumpy.png" alt="The Grumpy Cooker Logo" width="50%" class="ae-1"></a>
-          <!--<h1 class="">The Grumpy Cooker</h1>-->
-          <div class="ae-3 margin-top-5"><p class="hero">No Bullshit Narratives. No Excessive Pics. All Vegan Recipes.</p></div>
-          <!--<a href="#" class="button crop orange margin-bottom-4 ae-4">View Recipes</a>-->
+        <div>
+          {% if paginator.page > 1 %}
+          <div class="fix-12-12 margin-bottom-10 left">
+            <a href="/"><img src="/assets/svg/grumpy-cooker-logo.svg" alt="The Grumpy Cooker Logo" width="15%" class="ae-1 fadeIn"></a>
+            <!--<div class="ae-1 fadeIn margin-top-5"><p>No Bullshit Narratives. No Excessive Pics. All Vegan Recipes.</p></div>-->
+          </div>
+          {% else %}
+          <div class="fix-7-12 margin-bottom-10">
+            <a href="/"><img src="/assets/svg/grumpy-cooker-logo.svg" alt="The Grumpy Cooker Logo" width="100%" class="ae-1"></a>
+            <div class="ae-3 margin-top-5"><p class="hero">No Bullshit Narratives. No Excessive Pics. All Vegan Recipes.</p></div>
+          </div>
+          {% endif %}
         </div>
 
         <div class="fix-12-12">  
@@ -35,13 +42,26 @@ layout: default
             {% endfor %}
           </ul>
         </div>
-        <div class="fix-6-12 margin-top-10">
+        <div class="pagination fix-6-12 margin-top-10">
           <ul class="pager-nav">
-            <li class="pager-nav__item"><a href="/"><span>1</span></a></li>
-            <li class="pager-nav__item"><a href="/page2"><span>2</span></a></li>
-            <li class="pager-nav__next"><a href="/page2"><span>Next</span></a></li>
+          {% if paginator.previous_page %}
+            <li class="pager-nav__item pager-nav__previous">
+              <a href="{{ paginator.previous_page_path }}" class="previous">Previous</a>
+            </li>
+          {% else %}
+            <li class="pager-nav__item pager-nav__previous">&nbsp;</li>
+          {% endif %}
+          <span class="pager-nav__number">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
+          {% if paginator.next_page %}
+            <li class="pager-nav__item pager-nav__next">
+              <a href="{{ paginator.next_page_path }}" class="next">Next</a>
+            </li>
+          {% else %}
+            <li class="pager-nav__item pager-nav__next">&nbsp;</li>
+          {% endif %}
           </ul>
         </div>
+
 
         
       </div>
