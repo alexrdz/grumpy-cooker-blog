@@ -11,7 +11,7 @@ layout: default
           <div class="fix-10-12">
             <div class="">
               <h1 class="ae-1  fadeIn uppercase" itemprop="name headline">{{ page.title | escape }}</h1>
-              <p class="hero ae-2 fadeIn">Hechos a mano. Mamame.</p>
+              <p class="hero ae-2 fadeIn">{{ page.description | escape }}</p>
               <p class="post-meta ae-3 fadeIn">
                 <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
                   {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}

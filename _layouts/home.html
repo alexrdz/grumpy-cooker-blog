@@ -7,28 +7,35 @@ layout: default
     <div class="container">
       <div class="wrap">
       
-        <div class="fix-7-12 left toLeft">
+        <div class="fix-7-12 left toLeft margin-bottom-10">
           <a href="/"><img src="/assets/img/grumpy.png" alt="The Grumpy Cooker Logo" width="50%" class="ae-1 fromRight"></a>
           <!--<h1 class="">The Grumpy Cooker</h1>-->
-          <div class="ae-3 fromLeft"><p class="hero">No Bullshit Narratives. No Excessive Pics. All Vegan Recipes.</p></div>
-          <a href="#" class="button crop orange margin-bottom-4 ae-4">View Recipes</a>
+          <div class="ae-1 fromLeft"><p class="hero">No Bullshit Narratives. No Excessive Pics. All Vegan Recipes.</p></div>
+          <!--<a href="#" class="button crop orange margin-bottom-4 ae-4">View Recipes</a>-->
         </div>
 
         <div class="fix-12-12">  
-          <ul class="grid grid-74 later equal left margin-top-5">
+          <ul class="grid grid-74 later equal left margin-top-5" id="main">
             {% for post in site.posts %}
-            <li>
-                {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
-                <span class="post-meta">{{ post.date | date: date_format }}</span>
-
-                <h2>
-                  <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-                </h2>
-              </li>
+            <li class="col-4-12 ae-5 fadeIn">
+              <a class="box-74" href="{{ post.url | relative_url }}">
+                <div class="thumbnail-74">
+                  <img src="/assets/img/{{ post.image }}" class="wide" alt="Thumbnail"/>
+                </div>
+                <div class="name-74 equalElement table wide">
+                  <div class="cell">
+                    <h3 class="big">{{ post.title | escape }}</h3>
+                    <div class="description-74 left">{{ post.description }}</div>
+                    {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+                    <span class="post-meta left">{{ post.date | date: date_format }}</span>
+                  </div>
+                </div>
+              </a>
+            </li>
             {% endfor %}
           </ul>
 
-          <ul class="grid grid-74 later equal left margin-top-5" id="main">
+          <!--<ul class="grid grid-74 later equal left margin-top-5" id="main">
             <li class="col-4-12 ae-3 fromCenter">
               <a href="recipe.html" class="box-74">
                 <div class="thumbnail-74">
@@ -146,7 +153,7 @@ layout: default
                 </div>
               </a>
             </li>
-          </ul>
+          </ul>-->
         </div>
         <div class="fix-6-12 margin-top-10">
           <ul class="pager-nav">

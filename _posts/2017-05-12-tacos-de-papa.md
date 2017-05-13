@@ -1,10 +1,9 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
-date:   2017-05-06 16:08:48 -0500
-categories: jekyll update
-description: heat up a skillet or similar to medium high heat. chop or separate your cauliflower.
-image: foto_chiles.jpg
+date: 2017-05-12 18:49:58 -0500
+title: tacos de papa
+description: These are tacos made of papa
+image: foto_tlacoyos.jpg
 ---
 
 ### Ingredients
@@ -31,3 +30,4 @@ pour the cauliflower back into the skillet and roast, tossing every minute or so
 
 
 to make the tacos, heat your tortilla, add some cauliflower, a green leafy (i used spinach), some avocado and salsa. serve with some simple black beans and boom... powerhouse meal. whole grain, beans, green leafies, cruciferous veg and lots of flavor.
+
