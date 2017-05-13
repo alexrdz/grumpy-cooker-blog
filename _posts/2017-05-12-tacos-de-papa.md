@@ -7,19 +7,24 @@ image: foto_tlacoyos.jpg
 ---
 
 ### Ingredients
+{: .uppercase }
 - ½ head cauliflower
 - ¼ tsp ground cumin
 - ¼ tsp ground coriander
 - ¼ tsp mexican oregano, ground
 - ½ tsp salt
 - ½ tbsp oil
+{: .ingredients-list }
 
 #### Optionals
+{: .uppercase }
 - salsa
 - green leafies
 - avocado
+{: .ingredients-list }
 
 ### Process
+{: .uppercase }
 heat up a skillet or similar to medium high heat. chop or separate your cauliflower into equal bite-sized pieces or florets. in a bowl, mix the cauliflower with the oil.
 
 
