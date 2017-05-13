@@ -16,7 +16,7 @@ layout: default
 
         <div class="fix-12-12">  
           <ul class="grid grid-74 later equal left margin-top-5" id="main">
-            {% for post in site.posts %}
+            {% for post in paginator.posts %}
             <li class="col-4-12 ae-5 fadeIn">
               <a class="box-74" href="{{ post.url | relative_url }}">
                 <div class="thumbnail-74">

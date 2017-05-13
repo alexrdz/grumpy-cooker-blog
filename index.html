@@ -1,0 +1,56 @@
+---
+layout: default
+---
+
+<section class="slide whiteSlide autoHeight">
+  <div class="content">
+    <div class="container">
+      <div class="wrap">
+      
+        <div class="fix-7-12 margin-bottom-10">
+          <a href="/"><img src="/assets/img/grumpy.png" alt="The Grumpy Cooker Logo" width="50%" class="ae-1"></a>
+          <!--<h1 class="">The Grumpy Cooker</h1>-->
+          <div class="ae-3 margin-top-5"><p class="hero">No Bullshit Narratives. No Excessive Pics. All Vegan Recipes.</p></div>
+          <!--<a href="#" class="button crop orange margin-bottom-4 ae-4">View Recipes</a>-->
+        </div>
+
+        <div class="fix-12-12">  
+          <ul class="grid grid-74 later equal left margin-top-5" id="main">
+            {% for post in paginator.posts %}
+            <li class="col-4-12 ae-5 fadeIn">
+              <a class="box-74" href="{{ post.url | relative_url }}">
+                <div class="thumbnail-74">
+                  <img src="/assets/img/{{ post.image }}" class="wide" alt="Thumbnail"/>
+                </div>
+                <div class="name-74 equalElement table wide">
+                  <div class="cell">
+                    <h3 class="big">{{ post.title | escape }}</h3>
+                    <div class="description-74 left">{{ post.description }}</div>
+                    {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+                    <span class="post-meta leftw">{{ post.date | date: date_format }}</span>
+                  </div>
+                </div>
+              </a>
+            </li>
+            {% endfor %}
+          </ul>
+        </div>
+        <div class="fix-6-12 margin-top-10">
+          <ul class="pager-nav">
+            <li class="pager-nav__item"><a href="/"><span>1</span></a></li>
+            <li class="pager-nav__item"><a href="/page2"><span>2</span></a></li>
+            <li class="pager-nav__next"><a href="/page2"><span>Next</span></a></li>
+          </ul>
+        </div>
+
+        
+      </div>
+    </div>
+  </div>
+  <!--<div class="background" style="background-image:url(/assets/img/foto_tlacoyos.jpg)"></div>-->
+</section>
+
+
+
+
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>

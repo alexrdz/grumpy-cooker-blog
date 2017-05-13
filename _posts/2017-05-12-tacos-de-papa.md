@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2017-05-12 18:49:58 -0500
-title: tacos de papa
+title: Tacos de Papa
 description: These are tacos made of papa
 image: foto_tlacoyos.jpg
 ---
