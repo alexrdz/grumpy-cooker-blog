@@ -10,12 +10,12 @@ layout: default
         <div>
           {% if paginator.page > 1 %}
           <div class="fix-12-12 margin-bottom-10 left">
-            <a href="/"><img src="/assets/svg/grumpy-cooker-logo.svg" alt="The Grumpy Cooker Logo" width="15%" class="ae-1 fadeIn"></a>
+            <a href="/"><img src={{ "/assets/svg/grumpy-cooker-logo.svg"  | relative_url }} alt="The Grumpy Cooker Logo" width="15%" class="ae-1 fadeIn"></a>
             <!--<div class="ae-1 fadeIn margin-top-5"><p>No Bullshit Narratives. No Excessive Pics. All Vegan Recipes.</p></div>-->
           </div>
           {% else %}
           <div class="fix-7-12 margin-bottom-10">
-            <a href="/"><img src="/assets/svg/grumpy-cooker-logo.svg" alt="The Grumpy Cooker Logo" width="100%" class="ae-1"></a>
+            <a href="/"><img src={{ "/assets/svg/grumpy-cooker-logo.svg"  | relative_url }} alt="The Grumpy Cooker Logo" width="100%" class="ae-1"></a>
             <div class="ae-3 margin-top-5"><p class="hero">No Bullshit Narratives. No Excessive Pics. All Vegan Recipes.</p></div>
           </div>
           {% endif %}
