@@ -1,0 +1,16 @@
+{
+  "name": "grumpy-cooker-blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "git checkout master && git pull && jekyll build && surge _site/ drinkhorchata.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com-alexrdz:alexrdz/grumpy-cooker-blog.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

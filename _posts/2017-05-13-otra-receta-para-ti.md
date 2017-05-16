@@ -4,7 +4,7 @@ layout: post
 date: '2017-05-13T14:34:29+00:00'
 categories: food jekyll
 description: This is a recipe about food stuffs that you might like.
-image: foto_elote.jpg
+image: "/assets/img/foto_elote.jpg"
 ---
 ### Ingredients
 {: .uppercase }

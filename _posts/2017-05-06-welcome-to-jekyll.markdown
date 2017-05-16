@@ -5,7 +5,7 @@ date: '2017-05-06T21:08:48.000+00:00'
 categories: jekyll update
 description: heat up a skillet or similar to medium high heat. chop or separate your
   cauliflower.
-image: foto_chiles.jpg
+image: "/assets/img/foto_chiles.jpg"
 ---
 
 ### Ingredients
