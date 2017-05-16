@@ -4,7 +4,7 @@ layout: post
 date: '2017-05-16T14:44:30+00:00'
 categories: food chili lentils
 description: A mexican inspired no-meat chili. perfect for frito pie.
-image: "/assets/img/foto_tomates.jpg"
+image: foto_tomates.jpg
 ---
 ### INGREDIENTS
 

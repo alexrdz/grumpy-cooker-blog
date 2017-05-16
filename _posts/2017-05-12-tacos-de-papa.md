@@ -3,7 +3,7 @@ layout: post
 date: '2017-05-12T23:49:58.000+00:00'
 title: Tacos de Papa
 description: These are tacos made of papa
-image: "/assets/img/foto_tlacoyos.jpg"
+image: foto_tlacoyos.jpg
 categories: food tacos potato
 ---
 
