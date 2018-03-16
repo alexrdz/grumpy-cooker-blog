@@ -1,5 +1,5 @@
 ---
-title: Three Bean Chili this!
+title: Three Bean Chili
 layout: post
 date: 2017-05-16 09:44:30 -0500
 categories: food chili lentils
