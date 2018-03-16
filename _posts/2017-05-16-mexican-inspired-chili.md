@@ -1,7 +1,7 @@
 ---
 title: Three Bean Chili this
 layout: post
-date: 2017-05-16 14:44:30 +0000
+date: 2017-05-16 09:44:30 -0500
 categories: food chili lentils
 description: A mexican inspired no-meat chili. perfect for frito pie.
 image: foto_tomates.jpg
