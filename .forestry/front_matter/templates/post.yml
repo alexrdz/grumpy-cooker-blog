@@ -1,0 +1,38 @@
+---
+pages:
+- _posts/2017-05-16-mexican-inspired-chili.md
+- _posts/test-post.md
+- _posts/2017-05-12-tacos-de-papa.md
+- _posts/2017-05-13-otra-receta-para-ti.md
+hide_body: false
+fields:
+- name: title
+  type: text
+  label: Title
+  description: The title of your post
+  config:
+    required: true
+- type: text
+  label: Layout
+  name: layout
+  description: The layout to use
+  hidden: true
+  default: post
+  config:
+    required: true
+- name: date
+  type: datetime
+  label: Date
+  description: Publishing date
+- name: categories
+  type: text
+  label: Categories
+  description: Categories under which to file this post
+- name: description
+  type: textarea
+  label: Description
+  description: The first line of text for the homepage post teaser.
+- name: image
+  type: file
+  label: Image
+  description: The poster image for this post

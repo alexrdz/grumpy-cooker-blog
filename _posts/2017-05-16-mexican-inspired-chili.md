@@ -1,7 +1,7 @@
 ---
-title: Three Bean Chili
+title: Three Bean Chili this
 layout: post
-date: '2017-05-16T14:44:30+00:00'
+date: 2017-05-16 14:44:30 +0000
 categories: food chili lentils
 description: A mexican inspired no-meat chili. perfect for frito pie.
 image: foto_tomates.jpg
@@ -34,15 +34,15 @@ salt to taste
 
 1 can whole skinned tomatoes
 
-0.5 white onion, diced
+0\.5 white onion, diced
 
 2 cloves garlic, minced
 
-1.5 cups black beans
+1\.5 cups black beans
 
-1.5 cups garbanzo
+1\.5 cups garbanzo
 
-0.5 cups red lentils, cleaned and rinsed
+0\.5 cups red lentils, cleaned and rinsed
 
 jalapeños en escabeche
 
@@ -54,4 +54,4 @@ heat a dry pan on medium heat. add the coriander, cumin, oregano, paprika, chile
 
 bring a large pot to medium heat, add your minced onion and cover for 5 minutes, stirring occasionally. add the jalapeño and garlic and stir for about 2 minutes adding a little water if necessary (about a spoonful or two). add the dry spices and a little water and stir for another 5 minutes. now add the canned tomatoes one at a time. crush each one with your hand. stop at any point or add them all then stir and let cook for another 5 minutes. add the black beans and garbanzos along with about 1 - 2 cups of their liquid. bring to a boil and reduce heat to simmer.
 
-add the cinnamon stick, chile chipotle, remaining 2 chiles de arbol (chopped), sugar and salt to taste. simmer for about 15 minutes then add your red lentils and about a half cup of water (or more depending on how watery you want your chili). simmer on low for at least 30 minutes and remove the cinnamon stick. serve it with some jalapeños en escabeche and cilantro. enjoy the crap out of it.
+add the cinnamon stick, chile chipotle, remaining 2 chiles de arbol (chopped), sugar and salt to taste. simmer for about 15 minutes then add your red lentils and about a half cup of water (or more depending on how watery you want your chili). simmer on low for at least 30 minutes and remove the cinnamon stick. serve it with some jalapeños en escabeche and cilantro. **enjoy** the crap out of it.
